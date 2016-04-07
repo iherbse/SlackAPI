@@ -13,7 +13,7 @@ import org.junit.Test;
  */
 public class SlackWebhookClientTest {
     private SlackWebhookClient slackWebhookClient;
-    private String webhookUrl = "https://hooks.slack.com/services/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";
+    private String webhookUrl = "{webhookUrl}";
     private String result;
 
     @Before

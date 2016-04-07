@@ -15,7 +15,7 @@ public class HttpClientTest {
 
     private HttpClient httpClient;
     private String urlPath = "https://slack.com/api/channels.list";
-    private String token = "xoxp-29697136082-29839760311-32346424050-755278b2a2";
+    private String token = "{token}";
     private String result;
 
     @Before
