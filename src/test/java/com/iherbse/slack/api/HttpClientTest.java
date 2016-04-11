@@ -1,4 +1,4 @@
-package com.tistory.dlsks.slack.api;
+package com.iherbse.slack.api;
 
 import org.junit.After;
 import org.junit.Before;

@@ -1,4 +1,4 @@
-package com.tistory.dlsks.slack.api.message;
+package com.iherbse.slack.api.message;
 
 /**
  * Created by Inhwan on 16. 4. 7..

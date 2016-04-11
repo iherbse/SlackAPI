@@ -1,7 +1,7 @@
-package com.tistory.dlsks.slack.api;
+package com.iherbse.slack.api;
 
 import com.google.gson.Gson;
-import com.tistory.dlsks.slack.api.message.Payload;
+import com.iherbse.slack.api.message.Payload;
 
 /**
  * Created by Inhwan on 16. 4. 7..

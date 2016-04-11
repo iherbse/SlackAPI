@@ -1,6 +1,6 @@
-package com.tistory.dlsks.slack.api.message;
+package com.iherbse.slack.api.message;
 
-import com.tistory.dlsks.slack.api.validation.SlackValidator;
+import com.iherbse.slack.api.validation.SlackValidator;
 
 import java.util.ArrayList;
 import java.util.List;

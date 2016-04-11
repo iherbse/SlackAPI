@@ -1,4 +1,4 @@
-package com.tistory.dlsks.slack.api.validation;
+package com.iherbse.slack.api.validation;
 
 /**
  * Created by Inhwan on 16. 4. 7..

@@ -1,8 +1,8 @@
-package com.tistory.dlsks.slack.api;
+package com.iherbse.slack.api;
 
-import com.tistory.dlsks.slack.api.message.Attachment;
-import com.tistory.dlsks.slack.api.message.Field;
-import com.tistory.dlsks.slack.api.message.Payload;
+import com.iherbse.slack.api.message.Attachment;
+import com.iherbse.slack.api.message.Field;
+import com.iherbse.slack.api.message.Payload;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,7 +13,7 @@ import org.junit.Test;
  */
 public class SlackWebhookClientTest {
     private SlackWebhookClient slackWebhookClient;
-    private String webhookUrl = "{webhookUrl}";
+    private String webhookUrl = "{webhook URL}";
     private String result;
 
     @Before
@@ -36,7 +36,10 @@ public class SlackWebhookClientTest {
         attachment.addField(new Field("sub title 1", "내용"));
         attachment.addField(new Field("sub title 2", "내용"));
 
-        Payload payload = new Payload.PayloadBuilder("#general", "꿀꿀").setUsername("돼지").setIcon_emoji(":piggy:").addAttachment(attachment).build();
+        Payload payload = new Payload("TEST");
+        payload.setUsername("고양이");
+        payload.setIcon_emoji(":octocat:");
+        payload.addAttachment(attachment);
 
         this.result = this.slackWebhookClient.sendMessage(payload);
     }
